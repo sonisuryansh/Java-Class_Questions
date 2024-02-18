@@ -1,0 +1,66 @@
+#Pattern 1
+/* :- 
+*****
+*
+*
+*
+*****
+*/
+
+#SOLUTION
+public class Java_patterns {
+    public static void main(String []args){
+
+            int d = 4 ;
+            for (int i = 0;i<d; i++){
+                System.out.print("*");
+            }
+            for(int i = 0;i<4;i++){
+                System.out.print("*");
+                System.out.print("\n");
+            }
+            for (int i = 0;i<=d;i++){
+                System.out.print("*");
+            }
+#Pattern 2
+
+/*
+*****
+****
+***
+**
+*
+*/
+
+
+#SOLUTION
+
+        int d = 5;
+        for (int i = d; i > 0; i--) {
+            for (int j = 0; j < i; j++) {
+                System.out.print("*");
+            }
+            System.out.print("\n");
+        }
+
+#Pattern 3
+/*
+*   *
+*   *
+*   *
+*   *
+*****
+*/
+
+#SOLUTION
+
+        int a = 4;
+        for(int t = 0;t<a;t++){
+            System.out.print("*   *");
+            System.out.print("\n");
+        }
+        for(int t = 0;t<5;t++){
+            System.out.print("*");
+        }
+
+  
